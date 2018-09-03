@@ -16,22 +16,33 @@
             padding: 0;
         }
 
-        .navbar {
+        .sticky-top {
+            background-color: white;
+            border-bottom: #cccccc solid 5px;
+        }
+
+        .navbar-brand {
             background-color: #4aaaa5;
             color: white;
-            border-bottom: lightgray solid 5px;
         }
 
         .nav-link {
-            color: white;
+            color: darkslategray;
         }
 
         .nav-link:hover {
-            color: #cccccc;
+            color: #4aaaa5;
         }
 
         .custom-toggler {
             color: #cccccc;
+        }
+
+        .fixed-bottom {
+            background-color: #4aaaa5;
+            color: white;
+            text-align: center;
+            border-top: #cccccc solid 5px;
         }
     </style>
 
@@ -40,27 +51,32 @@
 
 <body>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg">
-        <span class="navbar-brand mb-1 h1">Nicole Barry</span>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="nav navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <div class="sticky-top">
+        <div class="container p-0">
+            <nav class="navbar navbar-expand-lg p-0 m-0">
+                <span class="navbar-brand p-2 m-0 h1">Nicole Barry</span>
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </div>
 
+    <!-- Content -->
     <div class="container">
         <div class="row">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perferendis facere ullam quaerat qui maiores iure consequuntur,
@@ -72,8 +88,37 @@
             amet consectetur adipisicing elit. Libero nemo quisquam incidunt dicta, sint totam aliquam cum quis dolorem saepe
             qui ullam nisi commodi veritatis reiciendis soluta accusantium corrupti suscipit! Lorem ipsum dolor sit amet
             consectetur, adipisicing elit. Velit sequi repellat ea aut, atque labore dolorum tenetur iure dolor, expedita
-            quos vitae amet accusantium, laboriosam at saepe vero. Voluptates, tempora?
+            quos vitae amet accusantium, laboriosam at saepe vero. Voluptates, tempora? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Vero saepe amet maiores beatae exercitationem cumque vitae repellendus. Quidem aperiam inventore,
+            autem eum sunt sed commodi quae nesciunt iusto ea adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Hic nulla voluptatum, itaque quis quod soluta. Nisi reiciendis necessitatibus voluptas possimus quaerat
+            ratione debitis repudiandae! Nobis porro sequi assumenda maiores nisi! Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Quae laborum corrupti, eos vel expedita, sapiente accusantium quibusdam quidem officia dolore
+            aliquid enim in voluptates suscipit? Officia eos nam similique dolorum! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nulla nobis dolore reiciendis minus quidem doloribus eligendi soluta, placeat sed ab libero,
+            repudiandae impedit possimus magni repellendus debitis voluptatibus ea. Ducimus. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Voluptatibus voluptatum perspiciatis possimus et quod totam tempora nemo, nulla quis dolorem
+            non fugit quia molestiae laboriosam odit corrupti officiis autem nam? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Amet labore, dolores dolor voluptatem corporis quia beatae harum ratione iure quam perferendis,
+            enim delectus eos aspernatur? Minima maxime corporis iste tenetur? Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Repellendus, sit soluta perspiciatis quo perferendis aspernatur maxime vel reiciendis facilis alias asperiores
+            libero, nisi deserunt! Rem quaerat quasi placeat totam vitae. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Provident ad, rem dicta vitae iusto nihil? Dolores a necessitatibus molestias optio porro! Voluptatibus
+            ad maxime reprehenderit eos quasi, dolor optio blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Officia animi, explicabo quos ex repellat, fugit ut maxime architecto optio modi excepturi quo dolorem
+            quia quasi veniam maiores! Rerum, vel beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+            doloribus veritatis sapiente quaerat ut veniam similique unde qui dolorem nobis distinctio autem, aliquam magni
+            dolores exercitationem doloremque magnam placeat? Quaerat! Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Ut eos voluptas odio! Consequuntur accusamus necessitatibus a possimus nostrum beatae quasi, esse iure
+            itaque nesciunt consequatur, vitae deleniti, cupiditate rem eligendi?
 
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="fixed-bottom">
+        <div class="container-fluid mt-1 p-0">
+            Copyright &copy;
         </div>
     </div>
 
