@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-100" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,12 +11,13 @@
 
 </head>
 
-<body>
+<body class="h-100 m-0 p-0">
+
     <!-- Start Nav -->
-    <div class="sticky-top bg-white" id="header">
+    <div class="sticky-top bg-white border-secondary" id="header">
         <div class="container p-0">
             <nav class="navbar navbar-expand-lg p-0 m-0">
-                <span class="navbar-brand p-3 m-0 h1">Nicole Barry</span>
+                <span class="navbar-brand bg-info text-white p-3 m-0 h1 border-secondary">Nicole Barry</span>
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,13 +25,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
+                            <a class="nav-link text-secondary" href="index.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link text-secondary" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -38,28 +39,38 @@
         </div>
     </div>
 
-    <!-- Content -->
-    <div class="container">
-        <div class="row">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perferendis facere ullam quaerat qui maiores iure consequuntur,
-            fugit eligendi dicta, harum quas! Qui, iusto! Nulla quia sint quibusdam quod dolorum? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Accusantium voluptatem repellendus ipsum inventore alias, quasi tempore reiciendis
-            incidunt excepturi voluptatibus fuga blanditiis. Sapiente nostrum hic a? Quas, qui nulla? Modi! Lorem, ipsum
-            dolor sit amet consectetur adipisicing elit. Debitis dolorum, repudiandae eum, quae, nostrum deserunt iusto possimus
-            provident enim cum aspernatur eius numquam hic ipsa. Qui recusandae totam expedita ut. Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Libero nemo quisquam incidunt dicta, sint totam aliquam cum quis dolorem saepe
-            qui ullam nisi commodi veritatis reiciendis soluta accusantium corrupti suscipit! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Velit sequi repellat ea aut, atque labore dolorum tenetur iure dolor, expedita
-            quos vitae amet accusantium, laboriosam at saepe vero. Voluptates, tempora?
 
+    <!-- Content -->
+    <div class="content">
+        <div class="container bg-white border-secondary" id="content-container">
+            <div class="row pr-5 pl-3">
+                <h2 class="mb-0 font-weight-bold text-info">About Me</h2>
+            </div>
+            <hr class="mt-1 border-secondary"  id="hr">
+            <div class="row pr-5 pl-5">
+                <div class="info">
+                    <img src="images/profile-pic.jpg" class=" rounded img-responsive float-left m-2 mr-3" alt="Nicole Barry">
+
+                    <p class="p-2 text-secondary">My name is Nicole Barry. I am originally from Rochester, NY and moved to Charlotte, NC three years
+                        ago. I went to college at St. John Fisher College in Rochester and earned a bachelor's degree in
+                        adolescent inslusive education and math. I decided I wanted to be a teacher in 5th grade. I love
+                        learning math, so I put the two together.
+                    </p>
+
+                    <p class="p-2 text-secondary">When I moved to Charlotte, I became a high school math teacher and swim coach. I enjoyed teaching
+                        students and helping them understand math in a way they did not before. Recently, I decided I wanted
+                        to pursue another passion of mine in software/web development. I am excited for this journey to learn
+                        more about web and software development.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <div class="fixed-bottom">
-        <div class="container-fluid mt-1 p-0">
-            Copyright &copy;
-        </div>
+    <div class="container-fluid p-0 text-center border-info bg-secondary text-white" id="footer">
+        <p></p>
+        Copyright &copy;
     </div>
 
 
